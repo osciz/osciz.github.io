@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+*{
+  /* outline: 1px solid red; */
+}
+
+body {
+  background-image: url(assets/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@layer base {
+  html {
+    font-family: 'Piazzolla', serif;
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
